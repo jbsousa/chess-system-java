@@ -1,4 +1,4 @@
-# Chess System - JAVA
+# Chess System
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/jbsousa/chess-system-java) ![GitHub top language](https://img.shields.io/github/languages/top/jbsousa/chess-system-java?color=red)
 

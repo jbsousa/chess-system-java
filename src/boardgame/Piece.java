@@ -10,7 +10,6 @@ public class Piece {
 		postion = null;
 	}
 
-	// O método getBoard() será acessado por classes do mesmo pacote ou subclasses
 	protected Board getBoard() {
 		return board;
 	}	

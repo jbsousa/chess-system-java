@@ -7,13 +7,15 @@ import chess.Color;
 
 public class Rook extends ChessPiece {
 
+	public static final String ROOK_SYMBOL = "\u2656";
+	
 	public Rook(Board board, Color color) {
 		super(board, color);
 	}
 
 	@Override
 	public String toString() {
-		return "R";
+		return ROOK_SYMBOL;
 	}
 
 	public boolean[][] possibleMoves() {

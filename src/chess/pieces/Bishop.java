@@ -7,13 +7,15 @@ import chess.Color;
 
 public class Bishop extends ChessPiece {
 
+	public static final String BISHOP_SYMBOL = "\u2657"; 
+	
 	public Bishop(Board board, Color color) {
 		super(board, color);
 	}
 
 	@Override
 	public String toString() {
-		return "B";
+		return BISHOP_SYMBOL;
 	}
 
 	public boolean[][] possibleMoves() {

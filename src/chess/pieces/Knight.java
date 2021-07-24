@@ -7,13 +7,15 @@ import chess.Color;
 
 public class Knight extends ChessPiece {
 
+	public static final String KNIGHT_SYMBOL = "\u2658";
+	
 	public Knight(Board board, Color color) {
 		super(board, color);
 	}
 
 	@Override
 	public String toString() {
-		return "N";
+		return KNIGHT_SYMBOL;
 	}
 
 	private boolean canMove(Position position) {

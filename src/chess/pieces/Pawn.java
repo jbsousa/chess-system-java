@@ -7,8 +7,10 @@ import chess.ChessPiece;
 import chess.Color;
 
 public class Pawn extends ChessPiece {
-
+	
 	private ChessMatch chessMatch;
+	
+	public static final String PAWN_SYMBOL = "\u2659";
 
 	public Pawn(Board board, Color color, ChessMatch chessMatch) {
 		super(board, color);
@@ -17,7 +19,7 @@ public class Pawn extends ChessPiece {
 
 	@Override
 	public String toString() {
-		return "P";
+		return PAWN_SYMBOL;
 	}
 
 	@Override

@@ -6,6 +6,8 @@ import chess.ChessPiece;
 import chess.Color;
 
 public class Queen extends ChessPiece {
+	
+	public static final String QUEEN_SYMBOL = "\u2655";
 
 	public Queen(Board board, Color color) {
 		super(board, color);
@@ -13,7 +15,7 @@ public class Queen extends ChessPiece {
 
 	@Override
 	public String toString() {
-		return "Q";
+		return QUEEN_SYMBOL;
 	}
 
 	public boolean[][] possibleMoves() {

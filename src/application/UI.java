@@ -100,7 +100,7 @@ public class UI {
 
 	private static void printPiece(ChessPiece piece, boolean background) {
 		if(background == true) {
-			System.out.print(ANSI_BLUE_BACKGROUND);
+			System.out.print(ANSI_GREEN_BACKGROUND);
 		}
 
 		// Operação para validação do conteudo da piece
@@ -109,10 +109,10 @@ public class UI {
 		} else {
 			//Checagem da cor da piece
 			if(piece.getColor() == Color.WHITE) {
-				System.out.print(ANSI_PURPLE + piece + ANSI_RESET);
+				System.out.print(ANSI_YELLOW + piece + ANSI_RESET);
 			}
 			else {
-				System.out.print(ANSI_YELLOW + piece + ANSI_RESET);
+				System.out.print(ANSI_BLUE + piece + ANSI_RESET);
 			}
 		}
 		System.out.print(" ");
@@ -123,11 +123,11 @@ public class UI {
 		List<ChessPiece> black = captured.stream().filter(x -> x.getColor() == Color.BLACK).collect(Collectors.toList());
 		System.out.println("Captured pieces:");
 		System.out.print("White:");
-		System.out.print(ANSI_PURPLE);
+		System.out.print(ANSI_YELLOW);
 		System.out.println(Arrays.toString(white.toArray()));
 		System.out.print(ANSI_RESET);
 		System.out.print("Black:");
-		System.out.print(ANSI_YELLOW);
+		System.out.print(ANSI_BLUE);
 		System.out.println(Arrays.toString(black.toArray()));
 		System.out.print(ANSI_RESET);
 	}

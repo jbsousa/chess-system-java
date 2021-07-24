@@ -8,6 +8,8 @@ import chess.Color;
 
 public class King extends ChessPiece {
 
+	public static final String KING_SYMBOL = "\u2654"; 
+	
 	private ChessMatch chessMatch;
 	
 	public King(Board board, Color color, ChessMatch chessMatch) {
@@ -17,7 +19,7 @@ public class King extends ChessPiece {
 
 	@Override
 	public String toString() {
-		return "K";
+		return KING_SYMBOL;
 	}
 
 	private boolean canMove(Position position) {

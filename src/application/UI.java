@@ -37,7 +37,7 @@ public class UI {
 	// https://stackoverflow.com/questions/2979383/java-clear-the-console
 	public static void clearScreen() {
 		String ANSI_CLEAR_SCREEN = "\033[H\033[2J";
-		String ANSI_RESET_SCREEN = "\033c";
+		//String ANSI_RESET_SCREEN = "\033c";
 		System.out.println(ANSI_CLEAR_SCREEN);
 	}
 	

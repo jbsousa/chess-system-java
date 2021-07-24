@@ -1,13 +1,12 @@
 package chess.pieces;
 
+import application.UI;
 import boardgame.Board;
 import boardgame.Position;
 import chess.ChessPiece;
 import chess.Color;
 
 public class Rook extends ChessPiece {
-
-	public static final String ROOK_SYMBOL = "\u2656";
 	
 	public Rook(Board board, Color color) {
 		super(board, color);
@@ -15,7 +14,7 @@ public class Rook extends ChessPiece {
 
 	@Override
 	public String toString() {
-		return ROOK_SYMBOL;
+		return UI.ROOK_SYMBOL;
 	}
 
 	public boolean[][] possibleMoves() {

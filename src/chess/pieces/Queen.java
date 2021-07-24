@@ -1,5 +1,6 @@
 package chess.pieces;
 
+import application.UI;
 import boardgame.Board;
 import boardgame.Position;
 import chess.ChessPiece;
@@ -7,15 +8,13 @@ import chess.Color;
 
 public class Queen extends ChessPiece {
 	
-	public static final String QUEEN_SYMBOL = "\u2655";
-
 	public Queen(Board board, Color color) {
 		super(board, color);
 	}
 
 	@Override
 	public String toString() {
-		return QUEEN_SYMBOL;
+		return UI.QUEEN_SYMBOL;
 	}
 
 	public boolean[][] possibleMoves() {

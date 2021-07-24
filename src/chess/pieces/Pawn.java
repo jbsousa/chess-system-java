@@ -1,5 +1,6 @@
 package chess.pieces;
 
+import application.UI;
 import boardgame.Board;
 import boardgame.Position;
 import chess.ChessMatch;
@@ -9,8 +10,6 @@ import chess.Color;
 public class Pawn extends ChessPiece {
 	
 	private ChessMatch chessMatch;
-	
-	public static final String PAWN_SYMBOL = "\u2659";
 
 	public Pawn(Board board, Color color, ChessMatch chessMatch) {
 		super(board, color);
@@ -19,7 +18,7 @@ public class Pawn extends ChessPiece {
 
 	@Override
 	public String toString() {
-		return PAWN_SYMBOL;
+		return UI.PAWN_SYMBOL;
 	}
 
 	@Override

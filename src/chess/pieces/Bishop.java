@@ -1,21 +1,26 @@
 package chess.pieces;
 
+import application.UI;
 import boardgame.Board;
 import boardgame.Position;
 import chess.ChessPiece;
 import chess.Color;
 
 public class Bishop extends ChessPiece {
-
-	public static final String BISHOP_SYMBOL = "\u2657"; 
+	
+	private String bishopSymbol = "\u2657";
 	
 	public Bishop(Board board, Color color) {
 		super(board, color);
 	}
 
+	public String getBishopSymbol() {
+		return bishopSymbol;
+	}
+	
 	@Override
 	public String toString() {
-		return BISHOP_SYMBOL;
+		return UI.BISHOP_SYMBOL;
 	}
 
 	public boolean[][] possibleMoves() {

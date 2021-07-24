@@ -1,13 +1,12 @@
 package chess.pieces;
 
+import application.UI;
 import boardgame.Board;
 import boardgame.Position;
 import chess.ChessPiece;
 import chess.Color;
 
 public class Knight extends ChessPiece {
-
-	public static final String KNIGHT_SYMBOL = "\u2658";
 	
 	public Knight(Board board, Color color) {
 		super(board, color);
@@ -15,7 +14,7 @@ public class Knight extends ChessPiece {
 
 	@Override
 	public String toString() {
-		return KNIGHT_SYMBOL;
+		return UI.KNIGHT_SYMBOL;
 	}
 
 	private boolean canMove(Position position) {

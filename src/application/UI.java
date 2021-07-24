@@ -34,6 +34,14 @@ public class UI {
 	public static final String ANSI_CYAN_BACKGROUND = "\u001B[46m";
 	public static final String ANSI_WHITE_BACKGROUND = "\u001B[47m";
 	
+	// Chess symbols
+	public static final String KING_SYMBOL = "\u2654";
+	public static final String QUEEN_SYMBOL = "\u2655";
+	public static final String ROOK_SYMBOL = "\u2656";
+	public static final String BISHOP_SYMBOL = "\u2657";
+	public static final String KNIGHT_SYMBOL = "\u2658";
+	public static final String PAWN_SYMBOL = "\u2659"; 
+	
 	// https://stackoverflow.com/questions/2979383/java-clear-the-console
 	public static void clearScreen() {
 		String ANSI_CLEAR_SCREEN = "\033[H\033[2J";

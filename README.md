@@ -6,4 +6,9 @@
 O Chess System, é uma sistema que simula uma partida de jogo de *xadrez*. O projeto faz parte do curso [Java COMPLETO](https://www.udemy.com/course/java-curso-completo/) ministradas pelo professor Nélio Alves da [DevSuperior](https://devsuperior.com.br "Site da DevSuperior").
 
 ### Objetivo
-Aplicar os conhecimentos aprendidos até o momento no curso para a construção de um projeto
+Aplicar os conhecimentos aprendidos, até o momento, no curso para a construção de um projeto.
+
+
+## Tenologias
+- [Java](https://www.java.com/pt-BR/)
+

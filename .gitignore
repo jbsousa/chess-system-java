@@ -24,3 +24,9 @@ hs_err_pid*
 
 # Eclipse
 .settings/
+
+# Iml files
+*.iml
+
+# Folders
+.idea/

@@ -9,6 +9,7 @@ O Chess System, é uma sistema que simula uma partida de jogo de *xadrez*. O pro
 Aplicar os conhecimentos aprendidos, até o momento, no curso para a construção de um projeto.
 
 
-## Tenologias
-- [Java](https://www.java.com/pt-BR/)
-
+### Projeto concluído
+<h1 align="center"> 
+  <img height="400px" width="auto" title="Chess System" src="https://github.com/jbsousa/chess-system-java/blob/master/images/chess_system.png" />
+</h1>
